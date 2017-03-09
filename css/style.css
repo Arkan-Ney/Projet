@@ -45,3 +45,36 @@
 	background-color:#740083;
 	}
 
+#svg-img {
+position: relative;
+max-width: 100%;
+-webkit-transform: translateY(-41%);
+-ms-transform: translateY(-41%);
+transform: translateY(-41%);
+}
+
+@font-face{
+	font-family : 'He';
+	src : url('fonts/HelveticaNeueLTStd-XBlkCn.otf'),
+			url('fonts/HelveticaNeueLTStd-XBlkCn.otf') format('truetype'),
+			local('fonts/HelveticaNeueLTStd-XBlkCn.otf'),
+			local('HelveticaNeueLTStd-XBlkCn.otf'),
+			url('HelveticaNeueLTStd-XBlkCn.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.font-svg {
+	font-family: "He";
+}
+
+
+/** 
+@font-face {
+  font-family: MaHelvetica;
+  src: local("Helvetica Neue Bold"),
+       local("HelveticaNeue-Bold"),
+       url(MgOpenModernaBold.ttf);
+  font-weight: bold;
+}
+ **/
