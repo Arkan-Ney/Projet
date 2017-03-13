@@ -17,7 +17,7 @@
 	box-shadow: 0 0 4rem #740083 inset , 0 0 2rem black inset, 0 0 2rem black;	
 }
 
-
+/** BODY **/
 #design-top {
  	border-bottom-width:0.3rem;
 	border-bottom-style:solid;
@@ -45,6 +45,7 @@
 	background-color:#740083;
 	}
 
+/** SVG **/
 #svg-img {
 position: relative;
 max-width: 100%;
@@ -53,28 +54,15 @@ max-width: 100%;
 transform: translateY(-41%);
 }
 
-@font-face{
-	font-family : 'He';
-	src : url('fonts/HelveticaNeueLTStd-XBlkCn.otf'),
-			url('fonts/HelveticaNeueLTStd-XBlkCn.otf') format('truetype'),
-			local('fonts/HelveticaNeueLTStd-XBlkCn.otf'),
-			local('HelveticaNeueLTStd-XBlkCn.otf'),
-			url('HelveticaNeueLTStd-XBlkCn.otf');
-	font-weight: normal;
+.font-svg {
+	font-family: 'HelveticaNeue';
+	font-weight: normal; 
 	font-style: normal;
 }
 
-.font-svg {
-	font-family: "He";
+@font-face{
+	font-family : 'HelveticaNeue';
+	src : url('../fonts/HelveticaNeueLTStd-XBlkCn.otf'),
+			 url('../fonts/HelveticaNeueLTStd-XBlkCn.ttf');
 }
 
-
-/** 
-@font-face {
-  font-family: MaHelvetica;
-  src: local("Helvetica Neue Bold"),
-       local("HelveticaNeue-Bold"),
-       url(MgOpenModernaBold.ttf);
-  font-weight: bold;
-}
- **/
