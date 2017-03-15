@@ -47,26 +47,45 @@
 	}
 
 /** SVG **/
-.font-svg {
-	font-family: 'HelveticaNeue';
-	font-style: normal;
-	font-weight: normal; 
+.menu {
+	fill:#575756;
+
 }
 
-@font-face{
-	font-family : 'HelveticaNeue';
-	src : url('../fonts/HelveticaNeueLTStd-XBlkCn.otf'),
-			 url('../fonts/HelveticaNeueLTStd-XBlkCn.ttf');
+.circle {
+	fill: white;
+}
+/**
+a:hover {
+	fill: #740083;
+} **/
+
+#accueil:hover {
+	fill: #B5B1B3;
 }
 
-.svg-container {
-	display: inline-block;
-	overflow: hidden;
-	position: relative;
-	width: 100%;
-	-webkit-transform: translateY(-31%);
-	-ms-transform: translateY(-31%);
-	transform: translateY(-31%);
+#actus:hover {
+	fill: #009839;
+}
+
+#contact:hover {
+	fill: #A8007F;
+}
+
+#classement:hover {
+	fill: #006D37;
+}
+
+#basket-planet:hover {
+	fill: #740083;
+}
+
+#calendrier:hover {
+	fill: #7FCD10;
+}
+
+#inscription:hover {
+	fill: #9445A0;
 }
 
 
