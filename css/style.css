@@ -16,6 +16,10 @@
 	box-shadow: 0 0 4rem #740083 inset , 0 0 2rem black inset, 0 0 2rem black;	
 }
 
+#navbar-main {
+	text-align: center;
+}
+
 /** BODY **/
 #design-top {
  	background-color:#740083;
@@ -47,19 +51,41 @@
 	}
 
 /** SVG **/
+.svg-content {
+	position: relative;
+	left: 50%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+@media all {
+    .svg-content {
+		width: 325px;
+		height: 325px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .svg-content {
+		width: 300px;
+		height: 300px;
+    }
+}
+ 
+@media all and (max-width: 480px) {
+    .svg-content {
+		width: 275px;
+		height: 275px;
+    }
+}
+
 .menu {
 	fill:#575756;
-
 }
 
-.circle {
-	fill: white;
-}
-/**
-a:hover {
-	fill: #740083;
-} **/
 
+/** SVG hover **/
 #accueil:hover {
 	fill: #B5B1B3;
 }
