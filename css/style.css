@@ -2,18 +2,21 @@
 .login-btn {
 	background-color:#740083;
 	border-radius: 2rem;
-	color:white;	
+	color:white;
+	transition: all 0.5s;	
 }
 
 .login-box {
 	border-radius: 1.5rem;
 	text-align: center;
+	transition: all 0.5s;	
 }
 
 .navbar {
 	background-color:#740083;
 	border: 0;
-	box-shadow: 0 0 4rem #740083 inset , 0 0 2rem black inset, 0 0 2rem black;	
+	box-shadow: 0 0 4rem #740083 inset , 0 0 2rem black inset, 0 0 2rem black;
+	transition: all 0.5s;	
 }
 
 #navbar-main {
@@ -27,7 +30,8 @@
 	border-bottom-style:solid;
 	border-bottom-width:0.3rem;
 	height: 20rem;
-	width:100%;	
+	width:100%;
+	transition: all 0.5s;	
 	}
 
 #line-1 {
