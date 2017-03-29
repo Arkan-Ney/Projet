@@ -1,60 +1,69 @@
 /** TOP NAVBAR **/
+
 .login-btn {
-	background-color:#740083;
+	background-color: #740083;
 	border-radius: 2rem;
-	color:white;
-	transition: all 0.5s;	
+	color: white;
+	transition: all 0.7s;
 }
 
 .login-box {
 	border-radius: 1.5rem;
 	text-align: center;
-	transition: all 0.5s;	
+	transition: all 0.7s;
 }
 
 .navbar {
-	background-color:#740083;
+	background-color: #740083;
 	border: 0;
-	box-shadow: 0 0 4rem #740083 inset , 0 0 2rem black inset, 0 0 2rem black;
-	transition: all 0.5s;	
+	box-shadow: 0 0 4rem #740083 inset, 0 0 2rem black inset, 0 0 2rem black;
+	transition: all 0.7s;
 }
 
 #navbar-main {
 	text-align: center;
 }
 
+
 /** BODY **/
+
 #design-top {
- 	background-color:#740083;
-	border-bottom-color:white;
-	border-bottom-style:solid;
-	border-bottom-width:0.3rem;
+	background-color: #740083;
+	border-bottom-color: white;
+	border-bottom-style: solid;
+	border-bottom-width: 0.3rem;
 	height: 20rem;
-	width:100%;
-	transition: all 0.5s;	
-	}
+	width: 100%;
+	transition: all 0.7s;
+}
 
 #line-1 {
-	background-color:#009839;
-	height:0.5rem;
-	width:100%;
-	}
+	background-color: #009839;
+	height: 0.5rem;
+	width: 100%;
+}
 
 #line-2 {
-	background-color:white;
-	height:1.7rem;
-	width:100%;
-
-
-	}
+	background-color: white;
+	height: 1.7rem;
+	width: 100%;
+}
 
 #line-3 {
-	background-color:#740083;
-	height:0.9rem;
-	width:100%;
-	}
+	background-color: #740083;
+	height: 0.9rem;
+	width: 100%;
+}
+
+#top-img {
+	background-image: url('/img/ballonhome.png');
+	height: 20rem;
+	width: 100%;
+}
+
 
 /** SVG **/
+
 .svg-content {
 	position: relative;
 	left: 50%;
@@ -64,32 +73,33 @@
 }
 
 @media all {
-    .svg-content {
+	.svg-content {
 		width: 325px;
 		height: 325px;
-    }
+	}
 }
 
 @media all and (max-width: 800px) {
-    .svg-content {
+	.svg-content {
 		width: 300px;
 		height: 300px;
-    }
+	}
 }
- 
+
 @media all and (max-width: 480px) {
-    .svg-content {
+	.svg-content {
 		width: 275px;
 		height: 275px;
-    }
+	}
 }
 
 .menu {
-	fill:#575756;
+	fill: #575756;
 }
 
 
-/** SVG hover **/
+/** SVG HOVER **/
+
 #accueil:hover {
 	fill: #B5B1B3;
 }
@@ -117,6 +127,3 @@
 #inscription:hover {
 	fill: #9445A0;
 }
-
-
-
